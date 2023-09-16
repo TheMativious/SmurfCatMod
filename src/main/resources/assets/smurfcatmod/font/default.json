@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "smurfcatmod:animations/we/smurfcat.png",
+            "ascent": 25,
+            "height": 50,
+            "chars": [
+                "\ue030"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+	"smurfcatsong": {
+		"sounds": [
+			{
+				"name": "smurfcatmod:smurfcatsong",
+				"stream": true
+			}
+		]
+	}
+}
