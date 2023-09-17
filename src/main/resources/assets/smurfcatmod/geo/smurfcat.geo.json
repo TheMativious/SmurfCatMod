@@ -1,0 +1,93 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.smurfcat",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Cabeza",
+					"pivot": [0, 23.40214, -0.82079],
+					"cubes": [
+						{"origin": [-5, 22, -6], "size": [10, 10, 10], "uv": [0, 19]},
+						{"origin": [-3.5, 22, -8], "size": [7, 4, 2], "uv": [47, 9]},
+						{"origin": [-3, 20.46791, 3.28558], "size": [6, 5, 2], "pivot": [0, 21, 0], "rotation": [140, 0, 0], "uv": [16, 51]},
+						{"origin": [-8, 27.96962, -10.3473], "size": [16, 4, 15], "pivot": [0, 21, 0], "rotation": [-10, 0, 0], "uv": [0, 0]},
+						{"origin": [-6, 30.93185, -8.51764], "size": [12, 4, 10], "pivot": [0, 21, 0], "rotation": [-15, 0, 0], "uv": [30, 29]}
+					]
+				},
+				{
+					"name": "Torso",
+					"pivot": [0.21901, 15.26082, -1],
+					"cubes": [
+						{"origin": [-4, 12, -4], "size": [8, 8, 6], "uv": [32, 43]},
+						{"origin": [2.71442, 14.53209, -4], "size": [1, 8, 6], "inflate": 0.1, "pivot": [0, 21, 0], "rotation": [0, 0, 40], "uv": [0, 0]},
+						{"origin": [-4.5, 10, -4.5], "size": [9, 5, 7], "uv": [0, 39]},
+						{"origin": [-4.5, 14, -4.5], "size": [9, 3, 7], "inflate": 0.1, "uv": [30, 19]},
+						{"origin": [-1, 10.96962, 3.1527], "size": [2, 2, 2], "pivot": [0, 21, 0], "rotation": [-10, 0, 0], "uv": [55, 19]}
+					]
+				},
+				{
+					"name": "Cuello",
+					"parent": "Torso",
+					"pivot": [0, 19, -1],
+					"cubes": [
+						{"origin": [-2, 18, -3], "size": [4, 4, 4], "uv": [0, 51]}
+					]
+				},
+				{
+					"name": "Brazos",
+					"pivot": [0, 19, -1]
+				},
+				{
+					"name": "Brazoderecho",
+					"parent": "Brazos",
+					"pivot": [-3, 19, -1],
+					"rotation": [-15, 90, 0],
+					"cubes": [
+						{"origin": [-4, 12, -4], "size": [2, 8, 2], "uv": [0, 19]},
+						{"origin": [-5.5, 8, -4], "size": [5, 4, 2], "uv": [54, 43]}
+					]
+				},
+				{
+					"name": "Brazoizquierdo",
+					"parent": "Brazos",
+					"pivot": [2.25123, 19.5751, -1],
+					"rotation": [-12.5, -90, 0],
+					"cubes": [
+						{"origin": [1.25123, 11.85157, -4.60655], "size": [2, 8, 2], "uv": [0, 19]},
+						{"origin": [-0.24877, 7.85157, -4.60655], "size": [5, 4, 2], "uv": [54, 43]}
+					]
+				},
+				{
+					"name": "Piernas",
+					"pivot": [0, 11, -1]
+				},
+				{
+					"name": "Piernaderecha",
+					"parent": "Piernas",
+					"pivot": [-2, 12.5, -1.75],
+					"cubes": [
+						{"origin": [-3.5, 5, -2.5], "size": [3, 5, 3], "uv": [29, 57]},
+						{"origin": [-4, 2, -5.5], "size": [4, 3, 6], "uv": [47, 0]}
+					]
+				},
+				{
+					"name": "Piernaizquierda",
+					"parent": "Piernas",
+					"pivot": [2, 12.5, -1.75],
+					"cubes": [
+						{"origin": [0.5, 5, -2.5], "size": [3, 5, 3], "uv": [29, 57]},
+						{"origin": [0, 2, -5.5], "size": [4, 3, 6], "uv": [47, 0]}
+					]
+				}
+			]
+		}
+	]
+}
